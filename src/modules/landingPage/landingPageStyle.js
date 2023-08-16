@@ -1,8 +1,6 @@
-/* Assuming you are using styled-components */
 import styled from "styled-components";
 
 const LandingPageStyle = styled.div`
-  /* Set the container to cover the whole viewport */
   width: 100vw;
   height: 100vh;
   display: flex;
