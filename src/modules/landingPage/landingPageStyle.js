@@ -16,7 +16,7 @@ const LandingPageStyle = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1; /* Place the spline image behind the text */
+    z-index: -1;
   }
 
   .splines {
@@ -27,7 +27,7 @@ const LandingPageStyle = styled.div`
   .text {
     text-align: center;
     color: white;
-    z-index: 1; /* Place the text above the spline image */
+    z-index: 1;
     position: relative;
   }
 `;
